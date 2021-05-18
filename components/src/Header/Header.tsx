@@ -178,7 +178,6 @@ const MobileNav = () => {
 
 export const Header = () => {
   const { isOpen, onToggle } = useDisclosure();
-
   return (
     <chakra.header>
       <Flex
