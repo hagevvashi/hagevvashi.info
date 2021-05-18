@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Box } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import { Header } from "@hagevvashi-info/components";
 import { CommonMeta } from "../components/CommonMeta";
 
@@ -12,7 +12,9 @@ export default function About() {
         <CommonMeta />
       </Head>
       <Header />
-      <Box>about</Box>
+      <Box>
+        <Heading>Hi! I'm hagevvashi</Heading>
+      </Box>
     </>
   );
 }
